@@ -175,6 +175,7 @@ int main()
                         {
                            if (buf[i] == '-')
                            {
+                              append(mes, '\n');
                               break;
                            }
                            append(mes, buf[i]);
